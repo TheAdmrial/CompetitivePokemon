@@ -9,3 +9,8 @@ While I don't know the answers just yet, this Github repo is to serve my explora
 
 ## Project (Silph) Scope
 This projects aim is to understand the categorization of Pokemon competitively. I plan on using machine learning to understand these categorizations. The data that I will be using will come from Kaggle with some modifications that will be explained. I will strive to explain my thought process throughout this project. 
+
+## The Pokedex Data
+The data that I will use is data that is found on Kaggle with some modifications. 
+  - First, I will be focusing on the all Pokemon entries up until the latest generation, generation 7 the Alola region. The first reason for this is in the latest iteration of Pokemon, Sword and Shield, all currently available Pokemon are _not_ available in this game. The latest game where *all* Pokemon can be used in competition is Pokemon Ultra Sun and Ultra Moon. A further analysis could be done for just Sword and Shield, but that is for a later time. 
+  - Second, the Kaggle dataset has blended new Pokemon forms together and has not clearly identified differences between mega evolutions and new alternate forms like Alolan forms. The dataset will be wrangled to reflect these changes in form. 
